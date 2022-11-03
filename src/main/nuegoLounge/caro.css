@@ -1,0 +1,87 @@
+.title  
+{  
+        margin-bottom: 20px;  
+        padding:20px  
+}  
+.card img  
+{  
+        /* height: 260px; */
+        width:100%  ;
+        border-radius: 26px;
+}  
+
+.owl-theme .owl-dots {
+  display: none;
+}
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: end;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  top: -25px;
+  right: 0px ;
+}
+.owl-carousel .owl-stage {
+  padding-top: 50px;
+ 
+}
+.container-fluid{
+       --bs-gutter-x:0;
+}
+.card {
+  height:  371px;
+  max-width: 278px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #f4fcfb;
+  /* border-top-left-radius: 24px; */
+  position: relative;
+  border: none;
+  border-radius:none;
+}
+.caro-card-cont {
+  padding-left: 15px;
+}
+.caro-card-cont h4{
+  font-family: 'Ubuntu' ,sans-serif ;
+  font-weight: 500;
+  font-size: 20px ;
+  line-height: 32px ;
+  padding-top: 25px;
+}
+
+.caro-card-cont p{
+  font-size: 16px ;
+line-height: 24px; 
+color: #4B4B51;
+}
+.owl-theme .owl-nav {
+    font-size: 24px;
+    background-color:#FFFFFF;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  width: 40px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background:white;
+  color:black;
+  text-decoration: none;
+}
+
+@media(min-width:560px){
+  .owl-theme .owl-nav {
+    top: -85px;
+  }
+  .owl-carousel .owl-stage {
+    padding-top: 0px;
+   
+  }
+}
+.owl-carousel .owl-nav button .owl-next{
+  font-size: 24px;
+}
+.owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  font-size: 24px;
+}

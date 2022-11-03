@@ -1,0 +1,72 @@
+.lucky-draw {
+  padding: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+.common-nav a {
+  text-decoration: none;
+  color: #00a095;
+  padding-right: 7px;
+  font-size: 14px;
+}
+#nav {
+  color: hsl(240, 2%, 65%);
+}
+.lucky-image {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+.winner img {
+  border-radius: 70px;
+  margin: 10px 20px  10px 56px ;
+}
+.winner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 450px;
+  max-width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.winner-list {
+  border: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 70px;
+  row-gap: 30px;
+}
+.terms-policies {
+  background-color: #f0faf9;
+  padding:  24px;
+  font-family: "Open Sans", sans-serif;
+}
+.terms-policies p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #1e1e26;
+}
+.winner-list {
+  margin-bottom: 150px;
+}
+@media (min-width: 520px) {
+  .winner {
+    width: 278px;
+  }
+}
+@media (min-width: 1040px) {
+  .winner-list {
+    margin-bottom: 394px;
+  }
+}
+@media (min-width: 1200px) {
+  .winner {
+    width: 278px;
+    height: 80px;
+  }
+  .lucky-draw , .terms-policies{
+    padding: 24px 187px;
+  }
+}
